@@ -1,5 +1,4 @@
-# ================= BREAK STATEMENT (FOR LOOP) =================
-
+#BREAK STATEMENT(FOR LOOP) 
 # 1. Print numbers from 1 to 20 and stop when the number is 10
 for i in range(1, 21):
     print(i)
@@ -56,8 +55,7 @@ for num in numbers:
         print("First even:", num)
         break
 
-# ================= CONTINUE STATEMENT (FOR LOOP) =================
-
+#CONTINUE STATEMENT(FOR LOOP) 
 # 1. Print numbers from 1 to 20, skipping 10
 for i in range(1, 21):
     if i == 10:
@@ -108,8 +106,7 @@ for i in range(1, 21):
         continue
     print(i)
 
-# ================= PASS STATEMENT =================
-
+#PASS STATEMENT 
 # 1. Empty function
 def student_details():
     pass
@@ -148,7 +145,7 @@ x = 10
 if x > 5:
     pass
 
-# ================= MIXED TASKS =================
+#MIXED TASKS
 
 # 1. Skip multiples of 4 and stop at 40
 for i in range(1, 51):
@@ -197,7 +194,7 @@ for i in range(1, 31):
         break
     print(i)
 
-# ================= WHILE LOOP - BREAK =================
+#WHILE LOOP - BREAK
 
 # 1. Stop at 5
 i = 1
@@ -237,7 +234,7 @@ while i <= 100:
         break
     i += 1
 
-# ================= WHILE LOOP - CONTINUE =================
+#WHILE LOOP - CONTINUE
 
 # 1. Skip 5
 i = 0
@@ -279,7 +276,7 @@ while i < 30:
         continue
     print(i)
 
-# ================= WHILE LOOP - PASS =================
+#WHILE LOOP - PASS
 
 # 1. While loop with pass
 i = 1
@@ -317,7 +314,7 @@ while running:
     pass
     running = False
 
-# ================= WHILE LOOP - MIXED =================
+#WHILE LOOP - MIXED
 
 # 1. Skip 5 and stop at 15
 i = 0
